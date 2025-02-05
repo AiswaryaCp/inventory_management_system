@@ -1,0 +1,71 @@
+# Byte-compiled / Cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+Pipfile
+Pipfile.lock
+
+# Django specific
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore migrations (except __init__.py)
+*/migrations/*  
+!*/migrations/__init__.py
+
+# Environment Variables & Secrets
+.env
+*.env
+config/settings_local.py
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# MacOS & Linux system files
+.DS_Store
+Thumbs.db
+*.bak
+.nfs*
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+docker/
+
+# Celery & Background Tasks
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+nosetests.xml
+test-reports/
+junit.xml
+
+# Testing & Debugging
+pytest_cache/
+*.cover
+.tox/
+noxfile.py
+nox/
